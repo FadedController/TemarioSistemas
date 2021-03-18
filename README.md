@@ -5,8 +5,8 @@ Este proyecto es parte de la clase de Sistemas de Información. Para nuestro pro
 ## Integrantes
 
 Los integrantes de este proyecto son:
-Axel Daniel Padilla Reyes - **23-29**
-José Fernando Ibarra Félix - **Clave**
-Sebastián Ojeda Flores - **Clave**
-José Antonio Aceves - **Clave**
+Axel Daniel Padilla Reyes - **23-29** \
+José Fernando Ibarra Félix - **Clave** \
+Sebastián Ojeda Flores - **Clave** \
+José Antonio Aceves - **Clave** \
 Diego Daniel Barragán Márquez - **Clave**
