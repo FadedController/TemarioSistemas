@@ -10,19 +10,35 @@ body {
 .title {
   color: rgb(14, 14, 73);
   text-align: center;
+  margin: 25px 0px 25px 0px;
 }
 
 .img-div {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.text-img {
+  margin: 10px;
+  color: #fff;
+  animation: reveal 3s forwards;
 }
 
 .separator {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .main {
-  padding: 50px;
+  padding: 0px 80px 0px 80px;
+}
+
+.card {
+  margin-top: 20px;
+  width: 90%;
+  height: 90%;
 }
 
 .hero {
@@ -32,8 +48,21 @@ body {
 }
 
 .hero:hover {
-  animation-duration: 600ms;
-  animation-name: moveUp;
+  animation: bounce 600ms;
+}
+
+@keyframes reveal {
+  from {
+    color: #fff;
+  }
+
+  50% {
+    color: #fff;
+  }
+
+  to {
+    color: rgb(97, 97, 97);
+  }
 }
 
 @keyframes animateIn {
@@ -54,7 +83,7 @@ body {
   }
 }
 
-@keyframes moveUp {
+@keyframes bounce {
   from {
     width: 100%;
   }
