@@ -6,11 +6,11 @@ Este proyecto es parte de la clase de Sistemas de Información. Para nuestro pro
 
 Los integrantes de este proyecto son: \
 Axel Daniel Padilla Reyes - **23-29** - Responsable de index.html y la integración de las páginas\
-José Fernando Ibarra Félix - **Clave** - Responsable de aplicaciones.html\
+José Fernando Ibarra Félix - **23-21** - Responsable de aplicaciones.html\
 Sebastián Ojeda Flores - **23-27** Responsable de fisica.html\
-José Antonio Aceves - **23-01** Responsable de orientacion.html\
+José Antonio Aceves Guzmán - **23-01** Responsable de orientacion.html\
 Diego Daniel Barragán Márquez - **23-03** Responsable de historia.html\
-Diego Iván García Gómez - **Clave** Responsable de literatura.html
+Diego Iván García Gómez - **23-16** Responsable de literatura.html
 
 ## Organizacion de directorio
 

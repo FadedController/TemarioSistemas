@@ -7,6 +7,11 @@ body {
   animation-name: animateIn;
 }
 
+ul {
+  text-align: center;
+  list-style: none;
+}
+
 .title {
   color: rgb(14, 14, 73);
   text-align: center;
