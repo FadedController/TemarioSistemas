@@ -1,100 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Física</title>
+    <!--Bootstrap Import-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .h1 {
+        background-image: url(../img/fisicabg.jpg);
+        color: white;
+        text-align: center;
+        font-family: Brush Script MT;
+      }
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Física</title>
-	<!--Bootstrap Import-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-	<!--Css import-->
-	<link rel="stylesheet" href="../styles/fisica.css" />
-</head>
-<body>
- <div class="container-fluid fondo1">
-  <h1 class="centrar">Física</h1>
-  </div>
-<div class="container">
-   <h3>Termodinamica</h3>
-  <p>Se sabe que la termodinamica es la parte de la física que estudia la acción mecánica del calor y las restantes formas de energía, y esta parte de la física nos dice que todos los cuerpos llegan a un equilibrio termico</p>
-  <h5>Escalas de temperatura</h5>
-<table class="table table-bordered">
- <thead>
-   <tr>
-     <th>Escalas</th>
-     <th>Para convertir a Celsius</th>
-     <th>Para convertir a Fahrenheit</th>
-     <th>Para convertir a Kelvin</th>
-     <th>Para convertir a Rankine</th>
-   </tr>
-   </thead>
-   <tboby>
-   <tr>
-     <th>Celsius/Centigrados</th>
-     <th>Ya son de esta escala</th>
-     <th>ºF = ºC x 1.8 + 32.</th>
-     <th>K = ºC + 273.15.</th>
-     <th>°R  =  9/5 ( °C + 273.15 )</th>
-   </tr>
-   <tr>
-     <th>Fahrenheit</th>
-     <th>ºC = (ºF-32) ÷ 1.8</th>
-     <th>Ya son de esta escala</th>
-     <th>K = 5/9 (ºF – 32) + 273.15</th>
-     <th>°R  =  °F + 459.67</th>
-   </tr>
-   <tr>
-     <th>Kelvin</th>
-     <th>ºC = K – 273.15</th>
-     <th>K = 5/9 (ºF – 32) + 273.15.</th>
-     <th>Ya son de esta escala</th>
-     <th>°R  =  9/5 K</th>
-   </tr>
-   <tr>
-     <th>Rankine</th>
-     <th>°C  =  5/9 ( °R – 491.67 )</th>
-     <th>°F  =  ( 9/5 K ) – 459.67</th>
-     <th>K  =  5/9 °R</th>
-     <th>Ya son de esta escala</th>
-   </tr>
-   </tboby>
-</table>
-</div>
-<div class="container">
-  <h5>Calor y temperatura</h5>
-  <div class="row borde">
-    <div class="col-lg-6 borde">
-      <h6 class="centrar">Temperatura</h6>
-      <p>Grado o nivel térmico de un cuerpo o de la atmósfera</p>
+      .centrar {
+        text-align: center;
+      }
+
+      .fondo1 {
+        background-color: cornflowerblue;
+      }
+
+      .borde {
+        border-style: solid;
+        border-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Navegación-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../."><b>Inicio</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Física</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="historia.html">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="orientacion.html">Orientación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aplicaciones.html">Aplicaciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="literatura.html">Literatura</a>
+        </li>
+      </ul>
+    </nav>
+    <div style="margin-top: 80px" id="top"></div>
+    <div class="container-fluid">
+      <h1 class="h1"><br />Física<br /><br /></h1>
     </div>
-    <div class="col-lg-6 borde">
-      <h6 class="centrar">Calor</h6>
-      <p>Energía que se manifiesta por un aumento de temperatura y procede de la transformación de otras energías</p>
+    <div class="container">
+      <h3 style="text-align: center"><strong>Termodinamica</strong></h3>
+      <p>
+        Se sabe que la termodinamica es la parte de la física que estudia la
+        acción mecánica del calor y las restantes formas de energía, y esta
+        parte de la física nos dice que todos los cuerpos llegan a un equilibrio
+        termico
+      </p>
+      <h5><strong>Escalas de temperatura</strong></h5>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Escalas</th>
+            <th>Para convertir a Celsius</th>
+            <th>Para convertir a Fahrenheit</th>
+            <th>Para convertir a Kelvin</th>
+            <th>Para convertir a Rankine</th>
+          </tr>
+        </thead>
+        <tboby>
+          <tr>
+            <th>Celsius/Centigrados</th>
+            <th>Ya son de esta escala</th>
+            <th>ºF = ºC x 1.8 + 32.</th>
+            <th>K = ºC + 273.15.</th>
+            <th>°R = 9/5 ( °C + 273.15 )</th>
+          </tr>
+          <tr>
+            <th>Fahrenheit</th>
+            <th>ºC = (ºF-32) ÷ 1.8</th>
+            <th>Ya son de esta escala</th>
+            <th>K = 5/9 (ºF – 32) + 273.15</th>
+            <th>°R = °F + 459.67</th>
+          </tr>
+          <tr>
+            <th>Kelvin</th>
+            <th>ºC = K – 273.15</th>
+            <th>K = 5/9 (ºF – 32) + 273.15.</th>
+            <th>Ya son de esta escala</th>
+            <th>°R = 9/5 K</th>
+          </tr>
+          <tr>
+            <th>Rankine</th>
+            <th>°C = 5/9 ( °R – 491.67 )</th>
+            <th>°F = ( 9/5 K ) – 459.67</th>
+            <th>K = 5/9 °R</th>
+            <th>Ya son de esta escala</th>
+          </tr>
+        </tboby>
+      </table>
     </div>
-  </div>
-</div>
-<div class="container">
- <h5>Transmisión de calor</h5>
-<table class="table table-bordered">
- <thead>
-   <tr>
-     <th>Conducción</th>
-     <th>Convección</th>
-     <th>Radiación</th>
-   </tr>
-   <tr>
-     <th>La energía calorífica se transmite durante el contacto directo entre cuerpos (o partes de los mismos) a distintas temperaturas y tiene lugar mediante choques o acoplamientos entre las moléculas del sistema</th>
-     <th>
-       La energía calorífica se transmite por el movimiento físico de moléculas “calientes” de las zonas de alta temperatura a las zonas de baja temperatura y viceversa, equilibrando las temperaturas
-     </th>
-     <th>
-       La energía calorífica se transmite en forma de energía de la radiación electromagnética, emitida por todos los cuerpos por el hecho de encontrarse a una temperatura T, y que se propaga a la velocidad de la luz 
-     </th>
-   </tr>
- </thead>
- <tboby>  
- </tboby>
-</table>  
-</div>
-</body>
+    <div class="container">
+      <h5><strong>Calor y temperatura</strong></h5>
+      <div class="row borde">
+        <div class="col-lg-6 borde">
+          <h6 class="centrar">Temperatura</h6>
+          <p>Grado o nivel térmico de un cuerpo o de la atmósfera</p>
+        </div>
+        <div class="col-lg-6 borde">
+          <h6 class="centrar">Calor</h6>
+          <p>
+            Energía que se manifiesta por un aumento de temperatura y procede de
+            la transformación de otras energías
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h5><strong>Transmisión de calor</strong></h5>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Conducción</th>
+            <th>Convección</th>
+            <th>Radiación</th>
+          </tr>
+        </thead>
+        <tboby>
+          <tr>
+            <th>
+              La energía calorífica se transmite durante el contacto directo
+              entre cuerpos (o partes de los mismos) a distintas temperaturas y
+              tiene lugar mediante choques o acoplamientos entre las moléculas
+              del sistema
+            </th>
+            <th>
+              La energía calorífica se transmite por el movimiento físico de
+              moléculas “calientes” de las zonas de alta temperatura a las zonas
+              de baja temperatura y viceversa, equilibrando las temperaturas
+            </th>
+            <th>
+              La energía calorífica se transmite en forma de energía de la
+              radiación electromagnética, emitida por todos los cuerpos por el
+              hecho de encontrarse a una temperatura T, y que se propaga a la
+              velocidad de la luz
+            </th>
+          </tr>
+        </tboby>
+      </table>
+    </div>
+    <div class="container">
+      <h5><strong>Dilatación</strong></h5>
+      <div class="row">
+        <div class="col-lg-4 borde">lineal</div>
+        <div class="col-lg-4 borde">superficial</div>
+        <div class="col-lg-4 borde">volumetrica</div>
+        <div class="col-lg-4 borde">
+          Se calcula con la siguiente formula l=l0⋅(1+λ⋅ΔT)
+        </div>
+        <div class="col-lg-4 borde">
+          Se calcula con la siguiente formula l=l0⋅(1+2λ⋅ΔT)
+        </div>
+        <div class="col-lg-4 borde">
+          Se calcula con la siguiente formula l=l0⋅(1+3λ⋅ΔT)
+        </div>
+        <div class="col-lg-12 borde">
+          La dilatación: Se le llama dilatación térmica al aumento de longitud,
+          volumen o alguna otra dimensión métrica que sufre un cuerpo físico
+          debido al aumento de temperatura por cualquier medio.
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h5><strong>Calor específico/Capacidad calorífica</strong></h5>
+      <div class="row">
+        <div class="col-lg-12">
+          Es una magnitud física que se define como la cantidad de calor que hay
+          que suministrar a la unidad de masa de una sustancia o sistema
+          termodinámico para elevar su temperatura en una unidad; esta se mide
+          en varias escala también hay que considerar que la capacidad
+          calorífica cambia dependiendo del estado de la materia
+        </div>
+        <div class="col-lg-12">
+          Se calcula de la siguiente manera Q = m * Ce * ( Tf - To)
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h5><strong>Leyes de la termodinamica</strong></h5>
+      <div class="row">
+        <div class="col-lg-6 borde">Primera Ley</div>
+        <div class="col-lg-6 borde">Segunda Ley</div>
+        <div class="col-lg-6 borde">
+          La primera ley de la termodinámica relaciona el trabajo y el calor
+          transferido intercambiado en un sistema a través de una nueva variable
+          termodinámica, la energía interna. Dicha energía ni se crea ni se
+          destruye, sólo se transforma.
+        </div>
+        <div class="col-lg-6 borde">
+          La segunda ley de la termodinámica establece que: “La cantidad de
+          entropía (Magnitud termodinámica que indica el grado de desorden
+          molecular de un sistema.) Del universo tiende a incrementarse en el
+          tiempo.” Del segundo principio se extrae que si bien todo el trabajo
+          se puede convertir en calor, no todo el calor puede convertirse en
+          trabajo. La máxima eficiencia que se puede conseguir es la eficiencia
+          de Carnot.
+        </div>
+        <div class="col-lg-12 centrar borde">
+          La primera ley es la única que cuenta con una formula y es esta:ΔU=Q+W
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h5><strong>Calor Latente</strong></h5>
+      <div class="row">
+        <div class="col-lg-12 borde">
+          El calor latente es la cantidad de energía requerida por una sustancia
+          para cambiar de fase, de sólido a líquido o de líquido a gaseoso. Se
+          debe tener en cuenta que esta energía en forma de calor se invierte
+          para el cambio de fase y no para un aumento de la temperatura.
+        </div>
+      </div>
+    </div>
+    <!--Pie de página-->
+    <div class="container-fluid">
+      <footer class="row">
+        <div class="col-lg-12 bg-dark text-white pt-5 pl-5 pr-5 pb-4">
+          <h5>Esta página es un proyecto para la clase de sistemas</h5>
+          <p>
+            El código completo está en
+            <a
+              href="https://github.com/FadedController/TemarioSistemas"
+              target="_blank"
+              >Github</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
