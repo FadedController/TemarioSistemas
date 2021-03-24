@@ -12,6 +12,10 @@ ul {
   list-style: none;
 }
 
+.separator {
+	height: 80px;
+}
+
 .title {
   color: rgb(14, 14, 73);
   text-align: center;
@@ -38,10 +42,6 @@ ul {
   margin: 10px;
   color: #fff;
   animation: reveal 3s forwards;
-}
-
-.separator {
-  margin-top: 50px;
 }
 
 .main {
@@ -109,4 +109,13 @@ ul {
   to {
     width: 100%;
   }
+}
+
+@media screen and (max-width: 576px) {
+	.main {
+  padding: 10px;
+}
+	.separator {
+		height: 230px;
+	}
 }
